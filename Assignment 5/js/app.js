@@ -4,11 +4,12 @@ $('#btnTest').click(function() {
     let decRate = $('#txtPayRate').val();
     console.log(decRate * decHours);
 });
-$('#cboEmployeeType').change(function( {
-    if($('#cboEmployeeType').val() == 'Full'){
-            //
-            // 
-            $
-    }
+$('#cboEmployeeType').change(function() {
+    if($('#cboEmployeeType').val() == 'Full') {
+            //$('#divhours').slideUp();
+            //$('#divhours').css('display','none');
+            $('#divhours').addClass('d-none');
+    } else {
+        $('#divhours').removeClass('d-none').slideDown();
 }
 ))
