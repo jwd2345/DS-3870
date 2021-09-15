@@ -3,6 +3,11 @@ $.getJSON("https://www.swollenhippo.com/EmployeesByAPIKey.php?APIKey=Mickey2021!
     console.log(result);
     arrEmployees = result;
     buildEmployeeCard();
+    $.each(result,function(i,person){
+        console.log(person,FirstName);
+        console.log(person,FirstName +' ' + person.LastName);
+        $('txtEmail').val(person.Email);
+    })
 })
 
 
