@@ -36,10 +36,11 @@ function buildEmployeeCard(){
         }
 
     });
+    $('#myTable').DataTable();
 }
 
 $(document).on('click','btnCalculatePay,function'() {
-    let decHours = $(this).closet('.card').find('.txthours').val();
-    let  decRate = $(this).closet('.card').find('.txtHourlyRate').val().split(': ')[1];
-    $(this).closet('.card').find('.txtTotalPay').val(decHours * decRate);
+    let decHours = $(this).closet('.card').find('.txthours').val(),
+    let  decRate = $(this).closet('.card').find('.txtHourlyRate').val().split(': ')[1],
+    $(this).closet('.card').find('.txtTotalPay').val(decHours * decRate),
 })
