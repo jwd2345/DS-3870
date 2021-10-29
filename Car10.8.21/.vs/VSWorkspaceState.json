@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\AzureFunction",
+    "\\AzureFunction\\ISISGetEmployee",
+    "\\AzureFunction\\ISISGetEmployee\\ISISGetEmployee"
+  ],
+  "SelectedNode": "\\AzureFunction\\ISISGetEmployee\\ISISGetEmployee\\getEmployee.cs",
+  "PreviewInSolutionExplorer": false
+}
