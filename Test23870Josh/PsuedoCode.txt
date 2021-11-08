@@ -1,0 +1,52 @@
+1)  string strQuery = "Select * FROM tblPosition DELETE PositionName";
+            DataSet dstblPosition  = new DataSet ();
+            string strConnection = "Server=tcp:myserver.database.windows.net,1433;Database=myDataBase;UserID=mylogin@myserver;Password=myPassword;Trusted_Connection=False;Encrypt=True";
+            try
+            {
+                using (SqlConnection con = new SqlConnection(strConnection))
+                using (SqlCommand comtblPosition  = new SqlCommand(strQuery, contblPosition ))
+                {
+                    SqlDataAdapter datblStates = new SqlDataAdapter(comtblStates);
+                    datblPosition .Fill(dstblPosition );
+                    return new OkObjectResult(JsonConvert.SerializeObject(dstblSates.Tables[0]));
+                }
+            }
+            catch (Exception ex)
+            {
+                return new OkObjectResult(ex.Message.ToString());
+
+
+2)   string strQuery = "SELECT StateCode, Description FROM tblStates ";
+            DataSet dstblStates = new DataSet ();
+            string strConnection = "Server=tcp:myserver.database.windows.net,1433;Database=myDataBase;UserID=mylogin@myserver;Password=myPassword;Trusted_Connection=False;Encrypt=True";
+            try
+            {
+                using (SqlConnection con = new SqlConnection(strConnection))
+                using (SqlCommand comtblStates = new SqlCommand(strQuery, contblStates ))
+                {
+                    SqlDataAdapter datblStates = new SqlDataAdapter(comtblStates);
+                    datblStates.Fill(dstblStates);
+                    return new OkObjectResult(JsonConvert.SerializeObject(dstblSates.Tables[0]));
+                }
+            }
+            catch (Exception ex)
+            {
+                return new OkObjectResult(ex.Message.ToString());
+3)
+
+4) string strQuery = "INSERT '2021-0000090', '317A', '212.31', 'Not Paid' ";
+            DataSet dstblInvoices  = new DataSet ();
+            string strConnection = "Server=tcp:myserver.database.windows.net,1433;Database=myDataBase;UserID=mylogin@myserver;Password=myPassword;Trusted_Connection=False;Encrypt=True";
+            try
+            {
+                using (SqlConnection con = new SqlConnection(strConnection))
+                using (SqlCommand comtblInvoices  = new SqlCommand(strQuery, contblInvoices ))
+                {
+                    SqlDataAdapter datblStates = new SqlDataAdapter(comtblStates);
+                    datblInvoices .Fill(dstblInvoices );
+                    return new OkObjectResult(JsonConvert.SerializeObject(dstblInvoices .Tables[0]));
+                }
+            }
+            catch (Exception ex)
+            {
+                return new OkObjectResult(ex.Message.ToString());

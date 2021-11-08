@@ -1,0 +1,30 @@
+1.)JSON - JavaScript Onject Notation 
+This allows one program to take data from another program and let it get transferred correctly
+
+2.)LAMP - Linux Apache MySqQl PHP Python
+Process in which all these different components work together to display data that people insert
+
+3.)Azure Function - are individual functions that are within a piece of code that can call data from somewhere else
+This lets you write a piece of code that starts the process of retreiving data or doing something on a application
+
+4.)Monolithic Web Application - app that has evrything on one interface rather than going to different sites 
+This is a website that would keep things simple and not have extra sites and come from one domain
+
+5.)SPA - Single Page Application 
+This is a app, like tiktok or twitter, that only has one interface that is interacted with. Allows ease of use of the application. 
+
+6.)Microservices - singular services that make up a whole application
+
+
+7.)The Cloud - sort of servers that are used over internet rather than in person that back up information
+This allows people to back up information without having to have servers or anything. Also allows remote access to their data or things on multiple devices or from anywhere.
+
+8.)NuGet Packages - shareable units of code
+Allows you to share code among other people that may use your code or may be working on that code. 
+
+9.)Scope - 
+
+
+10.)Co-Lo - place that can give out cloud space to people or businesses
+This lets businesses not have to spend money on hardware and their own stuff. They can pay someone else to do the maintenence and all the required things needed to maintain it and they can use that service to back up information and data. 
+ 
